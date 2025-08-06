@@ -13,8 +13,8 @@ export default async function decorate(block) {
  // block.setHTMLUnsafe = '<iframe src="https://www.nexaexperience.com"> </iframe>'
   const iframe = document.createElement("iframe");
     iframe.src = "https://dev-nexa.marutisuzuki.com/en/iframe-banner";
-    //iframe.width = "100";
-    //iframe.height = height;
+    iframe.width = "700";
+    iframe.height = "700";
     iframe.style.border = "none";
     iframe.allowFullscreen = true;
   block.append(iframe);
